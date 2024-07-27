@@ -1,5 +1,6 @@
 nav {
     border: 1px solid;
+    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,6 +18,8 @@ nav {
 }
 .nav-item {
     border: 1px solid;
+    border-radius: 15px;
+    margin: 0 3px;
     padding: 8px;
 }
 
@@ -38,4 +41,45 @@ article {
     width: 150px;
     background-size: cover;
     margin-top: 25px;
+}
+.main-content {
+    display: flex;
+}
+.section-content {
+    border: 1px solid;
+    width: 100%;
+    height: 350px;
+}
+.sention-content-banner {
+    border: 1px solid;
+    width: 93%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    
+    background-image: url(https://st4.depositphotos.com/1885147/40610/i/450/depositphotos_406106476-stock-photo-abstract-architectural-wallpaper-digital-background.jpg);
+}
+.user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center
+    margin-top: 10px 10px;
+    padding: 25px;
+}
+.user-profil {
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin: 0 10px;
+    padding: 5px;
+}
+.name {
+    margin: 0px;
+}
+.rank {
+    margin: 0px;
 }
