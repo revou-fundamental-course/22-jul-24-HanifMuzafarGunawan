@@ -15,6 +15,7 @@ nav {
 }
 .nav-container {
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-item {
     border: 1px solid;
@@ -27,9 +28,10 @@ main {
     border: 1px solid;
 
 }
-article {
+.article-title {
     text-align: center;
     margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .article-logo {
     border: 1px solid;
@@ -42,19 +44,25 @@ article {
     background-size: cover;
     margin-top: 25px;
 }
+.article-name {
+    margin-bottom: 4px;
+}
+.article-slogan {
+    margin-top: 0px;
+}
 .main-content {
     display: flex;
 }
 .section-content {
     border: 1px solid;
     width: 100%;
-    height: 350px;
+    height: 420px;
     padding: 10px;
     text-align: center;
 }
 .sention-content-banner {
     border: 1px solid;
-    height: 150px;
+    height: 250px;
     background-size: cover;
     border-radius: 15px;
     margin: 10px;
@@ -66,13 +74,14 @@ article {
 .comment {
     margin: 25px 0px 0px;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .user {
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin: 0px;
+    margin-top: 10px;
     padding: 10px;
 }
 .user-profil {
@@ -84,7 +93,10 @@ article {
     padding: 5px;
     background-size: cover;
     background-position: center;
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg);
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3189Z9vovzbAld_v7rar2Js7qkDyH2GHiHQ&s);
+}
+.user-name {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
 }
 .name {
     margin: 0px;
@@ -110,4 +122,11 @@ button {
     border: none;
     border-radius: 13px;
     cursor: pointer;
+}
+.input-text {
+    display: flex;
+    align-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
