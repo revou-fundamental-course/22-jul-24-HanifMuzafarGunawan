@@ -1,10 +1,11 @@
 nav {
     border: 1px solid;
-    border-radius: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px;
+    padding: 10px;
+    /*background-color: #000000;*/
+    border-radius: 15px;
 }
 .logo-icon {
     border: 1px solid;
@@ -15,13 +16,15 @@ nav {
 }
 .nav-container {
     display: flex;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-item {
     border: 1px solid;
-    border-radius: 15px;
-    margin: 0 3px;
+    border-radius: 12px;
+    margin: 0 2px;
     padding: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #000000;
+    color: white;
 }
 
 main {
@@ -86,7 +89,7 @@ main {
     border: 1px solid;
     width: 30px;
     height: 30px;
-    border-radius: 50px;
+    border-radius: 500px;
     margin: 0 10px;
     padding: 5px;
     background-size: cover;
