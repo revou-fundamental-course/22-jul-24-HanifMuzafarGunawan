@@ -18,6 +18,9 @@ nav {
     background-size: cover;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Garuda_Seal_of_Thailand.svg/400px-Garuda_Seal_of_Thailand.svg.png);
 }
+@media only screen and (max-width:600px){
+    .nav {flex-direction: column;}
+}
 .nav-container {
     display: flex;
 }
@@ -62,6 +65,7 @@ nav {
     max-width: 9000vh;
     width: 1180px;
     height: 520px;
+    display: block;
 }
 .article-main {
     display: flex;
@@ -168,7 +172,7 @@ nav {
 .section-content-form {
     border: 1px solid;   
     width: 45%;
-    height: 500px;
+    height: 510px;
     padding-top: 10px;
 }
 .form-input {
@@ -242,10 +246,11 @@ nav {
 }
 .story-h2 {
     text-align: center;
-    background-color: #e1e1e1;
+    background-color: #b0b0b0;
     border-radius: 14px;
     padding: 10px;
     margin: 0px;
+    color: rgb(0, 0, 0);
 }
 .story-description {
     border: 1px solid;
