@@ -16,7 +16,7 @@ nav {
     height: 50px;
     width: 50px;
     background-size: cover;
-    background-image: url(https://pouch.jumpshare.com/preview/woyhbgJSyAVItJ_L5DnehCulOAZalZpEdq8ksk0jqg93-RPT2ql_wxWkZ9E9KGoGOm-qBbeP3LSJN8PTB30TroTQZ3EMil8dX8u3qvkFcG8);
+    background-image: url(2https://github.com/revou-fundamental-course/22-jul-24-HanifMuzafarGunawan/blob/main/Assets/logo%20iseng.svg);
 }
 .nav-container {
     display: flex;
@@ -111,7 +111,7 @@ nav {
 .section-content-banner {
    /*border: 1px solid;*/   
     height: 350px;
-    max-height: 400px;
+    max-height: 600px;
     margin-top: 10px;
     border-radius: 15px;
     object-fit:none;
@@ -228,13 +228,18 @@ nav {
 .button-submit:hover {
     background-color: #ff4b4b;
 }
-.story-main {
+.story {
     border: 1px solid;
     width: 1180px;
     height: 500px;
 }
-.story-title {
+.story-h2 {
     text-align: center;
     margin: 20px 20px 0px 20px;
     font-family:'Times New Roman', Times, serif
+}
+.story-p {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 0px;
 }
